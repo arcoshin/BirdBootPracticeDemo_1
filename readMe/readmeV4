@@ -1,0 +1,5 @@
+1.封裝線程任務類ClientHandler中的代碼於新的類HttpServletRequest--->用以專門處理請求的業務
+
+2.同時將分析請求所得到的結果，作為HttpServletRequest的成員變量，設立Get方法以供後期使用
+
+3.ClientHandler僅保留獲得輸出抽象路徑

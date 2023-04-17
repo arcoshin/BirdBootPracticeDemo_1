@@ -1,0 +1,14 @@
+1.分析收到的請求資訊 :
+//            GET /index.html HTTP/1.1   <---請求 包含請求方式 抽象路徑 協議版本V2已完成
+//            Host: localhost:9188       
+//            Connection: keep-alive
+//            Cache-Control: max-age=0
+//            .
+//            .
+//            .
+
+2.分離出消息行中的......(1)消息頭、(2)消息內文
+
+3.封裝線程任務類ClientHandler中的冗餘代碼於新的方法readLine--->專門用以讀取請求
+
+4.使用readLine重寫ClientHandler，並儲存整個請求的資訊(使用map)

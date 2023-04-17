@@ -1,0 +1,10 @@
+1.分析收到的請求資訊 :
+//            GET /index.html HTTP/1.1   <---請求 包含請求方式 抽象路徑 協議版本
+//            Host: localhost:9188       
+//            Connection: keep-alive
+//            Cache-Control: max-age=0
+//            .
+//            .
+//            .
+
+2.分離出請求行中的......(1)請求方式、(2)抽象路徑、(3)協議版本

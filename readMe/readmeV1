@@ -1,0 +1,12 @@
+1.啟動服務器，並等待連接
+
+2.建立另一線程任務類接收請求數據
+
+3.觀察並檢驗收到的請求資訊 :
+//            GET /index.html HTTP/1.1   <---請求 包含請求方式 抽象路徑 協議版本
+//            Host: localhost:9188
+//            Connection: keep-alive
+//            Cache-Control: max-age=0
+//            .
+//            .
+//            .

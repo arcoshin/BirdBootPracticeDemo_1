@@ -1,0 +1,16 @@
+1.發送響應，測試目標:用戶只要連線都能被指向到首頁
+//                一則響應的大致格式
+//                HTTP/1.1 200 OK(CRLF) <---狀態行
+//                Content-Type: text/html(CRLF) <---響應頭
+//                Content-Length: 2546(CRLF)(CRLF) <---響應頭
+//                1011101010101010101......(index.html页面内容) <---響應正文
+
+2.此時，一問一答模式已完成，即可開啟死循環以不斷接收用戶端的請
+
+3.封裝方法println，重構ClientHandler
+
+4.封裝方法parseRequestLine、parseHeaders、parseContent重構HttpServletRequest
+
+
+
+
