@@ -9,8 +9,6 @@
 
 3.封裝方法println，重構ClientHandler
 
-4.封裝方法parseRequestLine、parseHeaders、parseContent重構HttpServletRequest
-
 
 
 

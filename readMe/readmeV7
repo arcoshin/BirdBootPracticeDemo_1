@@ -1,4 +1,4 @@
-1.將響應業務封裝至HttpServletResponse
+1.將響應業務封裝至HttpServletResponse，寫完方法封裝後重構
 
 
 

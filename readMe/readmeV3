@@ -7,8 +7,8 @@
 //            .
 //            .
 
-2.分離出消息行中的......(1)消息頭、(2)消息內文
+2.分離出請求中的消息頭
 
-3.封裝線程任務類ClientHandler中的冗餘代碼於新的方法readLine--->專門用以讀取請求
+3.封裝線程任務類ClientHandler中的冗餘代碼於新的方法readLine--->專門用以讀取請求中的每一行
 
-4.使用readLine重寫ClientHandler，並儲存整個請求的資訊(使用map)
+4.使用readLine重構ClientHandler，並儲存整個請求頭的資訊(使用map)

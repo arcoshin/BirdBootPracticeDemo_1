@@ -2,4 +2,6 @@
 
 2.同時將分析請求所得到的結果，作為HttpServletRequest的成員變量，設立Get方法以供後期使用
 
-3.ClientHandler僅保留獲得輸出抽象路徑
+3.ClientHandler僅保留輸出抽象路徑，並將歸納至至2.處理請求的部分
+
+4.封裝方法parseRequestLine、parseHeaders、parseContent重構HttpServletRequest

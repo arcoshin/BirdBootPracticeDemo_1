@@ -56,7 +56,7 @@ public class ClientHandler implements Runnable {
 //                Content-Type: text/html(CRLF) <---響應頭
 //                Content-Length: 2546(CRLF)(CRLF) <---響應頭
 //                1011101010101010101......(index.html页面内容) <---響應正文
-            //綁定類加載對象
+            //定位當前目錄的類加載路徑
             File baseDir = new File(
                     ClientHandler.class.getClassLoader().getResource(".").toURI()
             );
