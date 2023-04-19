@@ -1,0 +1,8 @@
+1.表單get提交的參數會出現在URI，進一步解析
+
+/regUser?username=xsupeipei&password=123456&nickname=peipei&age=999
+
+
+
+
+
